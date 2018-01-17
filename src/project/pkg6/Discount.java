@@ -19,11 +19,11 @@ public class Discount {
         double total;
         
         
-        System.out.println("PRICE CHECKER VERSION 2.0");
+        System.out.println("PRICE CHECKER VERSION 3.0");
         System.out.println("Sila masukkan jumlah harga pembelian anda: ");
         amount= input.nextDouble();
         
-        if (amount<100){
+        if (amount<1000){
             discount='0';
             
         }
